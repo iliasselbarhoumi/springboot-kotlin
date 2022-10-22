@@ -14,3 +14,13 @@ These additional references should also help you:
 
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 
+### Run the application with docker
+
+#### Build the application
+docker build --build-arg JAR_FILE=build/libs/*.jar -t spring-boot-shop-application .
+
+#### Run the application
+docker run -p 8080:8080 spring-boot-shop-application
+
+#### Visit the application
+* [Shop Application with Spring Boot](http://localhost:8080)

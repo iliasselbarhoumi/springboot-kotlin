@@ -1,0 +1,21 @@
+INSERT INTO products VALUES ( '1',
+                              'produit1',
+                              'produit 1',
+                              100,
+                              20,
+                              '2022-02-09 07:00:00',
+                              '2022-02-09 07:00:00' );
+INSERT INTO products VALUES ( '2',
+                              'produit2',
+                              'produit 2',
+                              450,
+                              25,
+                              '2022-02-09 07:00:00',
+                              '2022-02-09 07:00:00' );
+INSERT INTO products VALUES ( '3',
+                              'produit3',
+                              'produit 3',
+                              900,
+                              45,
+                              '2022-02-09 07:00:00',
+                              '2022-02-09 07:00:00' );
